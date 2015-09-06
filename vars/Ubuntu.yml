@@ -1,0 +1,5 @@
+---
+# vars file for qemu (Ubuntu specific)
+
+qemu_packages:
+  - qemu
