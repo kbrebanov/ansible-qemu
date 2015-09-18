@@ -1,7 +1,7 @@
 qemu
 ====
 
-[![Ansible Galaxy](https://img.shields.io/badge/galaxy-kbrebanov.qemu-660198.svg)](https://galaxy.ansible.com/list#/roles/5011)
+[![Ansible Role](https://img.shields.io/ansible/role/5011.svg)](https://galaxy.ansible.com/list#/roles/5011)
 
 Installs QEMU
 
