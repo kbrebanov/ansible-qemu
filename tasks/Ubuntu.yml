@@ -2,6 +2,12 @@
 # tasks file for qemu (Ubuntu specific)
 
 - name: Install QEMU packages
-  apt: name={{ item }} state=present update_cache=yes
-  with_items: qemu_packages
-  tags: qemu
+  become: yes
+  apt:
+    name: "{{ item }}"
+    state: present
+    update_cache: yes
+  with_items:
+    - "{{ qemu_packages }}"
+  tags:
+    - qemu

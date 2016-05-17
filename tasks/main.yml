@@ -3,12 +3,15 @@
 
 - name: Include distribution specific variables
   include_vars: "{{ ansible_distribution }}.yml"
-  tags: qemu
+  tags:
+    - qemu
 
 - include: CentOS.yml
   when: ansible_distribution == "CentOS"
-  tags: qemu
+  tags:
+    - qemu
 
 - include: Ubuntu.yml
   when: ansible_distribution == "Ubuntu"
-  tags: qemu
+  tags:
+    - qemu
