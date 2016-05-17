@@ -1,7 +1,7 @@
 qemu
 ====
 
-[![Ansible Role](https://img.shields.io/ansible/role/5011.svg)](https://galaxy.ansible.com/list#/roles/5011)
+[![Build Status](https://travis-ci.org/kbrebanov/ansible-qemu.svg?branch=master)](https://travis-ci.org/kbrebanov/ansible-qemu)
 
 Installs QEMU
 
