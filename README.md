@@ -24,10 +24,10 @@ Example Playbook
 ----------------
 
 Install QEMU
-```
+```yaml
 - hosts: all
   roles:
-    - { role: kbrebanov.qemu }
+    - kbrebanov.qemu
 ```
 
 License
